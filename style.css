@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap");
+
+body {
+  background: #36454f;
+  color: rgb(102, 181, 217);
+  font-family: Arial, sans-serif;
+  font-family: "Henny Penny", system-ui;
+}
+
+img {
+  border-radius: 60px;
+}
+
+h1 {
+  font-size: 3em;
+}
