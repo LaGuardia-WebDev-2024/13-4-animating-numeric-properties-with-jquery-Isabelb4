@@ -8,9 +8,21 @@ body {
 }
 
 img {
-  border-radius: 60px;
+  border-radius: 10px;
+  border: 6px solid rgb(102, 181, 217);
+  margin: 5px;
+  background-color: white;
 }
 
 h1 {
   font-size: 3em;
+  background-color: rgb(102, 181, 217);
+  color: beige;
+}
+
+div {
+  background-color: beige;
+  border: 20px ridge rgb(102, 181, 217);
+  border-radius: 30px;
+  width: 250px;
 }
