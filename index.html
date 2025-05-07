@@ -8,19 +8,27 @@
   <body>
     <div class="avatar">
       <img
+        id="Aqualine-Pic"
         src="https://www.khanacademy.org/images/avatars/svg/aqualine-sapling.svg"
         width="150"
       />
-      <h1>Aqualine</h1>
+      <h1 id="Aqualine-Text">Aqualine</h1>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
-    
-    
-    
-    
-    
+      $("#Aqualine-Pic").animate(
+        {
+          width: "310px",
+          marginLeft: "30px",
+          borderWidth: "20px",
+        },
+        2500
+      );
+      $("#Aqualine-Text").animate({
+        marginLeft: "20px",
+        fontSize: "6em",
+      });
     </script>
   </body>
 </html>
